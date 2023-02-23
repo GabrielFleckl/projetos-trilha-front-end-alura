@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 34.5px 0;
+  background-color: #F5F5F5;
+  width: 100%;
+  color: #464646;
+  font-family: "raleway", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 152px;
+  margin-bottom: 32px;
+}
+header .header-brand {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+header .header-brand h1 {
+  font-size: 1em;
+  font-weight: bold;
+}
+header .header-links ul {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+header .header-links ul li {
+  color: #464646;
+  font-weight: 500;
+}
+
+.landing {
+  display: flex;
+  gap: 17px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+.landing .landing-main {
+  width: 751px;
+  height: 246px;
+}
+.landing .landing-main h1 {
+  font-size: 52px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.landing .landing-main p {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+.landing .landing-links ul {
+  display: flex;
+  gap: 32px;
+}
+.landing .landing-links ul li {
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+  font-weight: 500;
+  gap: 4px;
+}
+.landing .landing-img img {
+  border-radius: 50%;
+  width: 368px;
+  height: 368px;
+}
+
+.sobre-mim {
+  background-color: #EAF2FD;
+  padding: 64px 152px;
+  width: 100%;
+  margin-bottom: 32px;
+}
+.sobre-mim h1 {
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+.sobre-mim p {
+  margin-bottom: 1em;
+  max-width: 751px;
+}
+
+.skills {
+  padding: 64px 152px;
+  width: 100%;
+}
+
+.skills-title, .hobbies-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.square-container {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-square {
+  font-weight: 700;
+  width: 176px;
+  height: 174px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 16px;
+  gap: 8px;
+}
+
+.hobbies {
+  margin-bottom: 32px;
+  padding: 64px 152px;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
