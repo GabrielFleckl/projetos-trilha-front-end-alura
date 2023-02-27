@@ -1,8 +1,10 @@
 $background: #F5F5F5
 $text: #464646
 $blue: #2A7AE4
+$dark-blue: #2165bd
 $light-blue: #EAF2FD
 $space-section: 32px
+$text-placeholder: #A2A2A2
   
 *
   margin: 0
@@ -26,15 +28,32 @@ header
   justify-content: space-between
   align-items: center
   padding: 0 152px
-  margin-bottom: $space-section
+  margin-bottom: 42px
   .header-brand
     display: flex
     gap: 8px
     align-items: center
+    a
+      color: $text
     h1
       font-size: 1em
       font-weight: bold
+      transition: .3s
+      &:hover
+        color: $blue
+        transition: .3s
+        cursor: pointer
   .header-links
+    display: flex
+    gap: 32px
+    .bold
+      font-weight: 700
+      color: $text
+      transition: .1s
+      &:hover
+        color: $blue
+        transition: .1s
+        border-bottom: 2px solid $blue
     ul
       display: flex
       gap: 32px
@@ -42,13 +61,21 @@ header
       li
         color: $text
         font-weight: 500
+        transition: .1s
+        &:hover
+          transition: .1s
+          color: $blue
+          border-bottom: 2px solid $blue
 
 .landing
   display: flex
-  gap: 17px
+  gap: 20px
   align-items: center
   justify-content: center
   margin-bottom: $space-section
+  .landing-img
+    width: 20%
+    height: 20%
   .landing-main
     width: 751px
     height: 246px
@@ -67,30 +94,37 @@ header
       li
         display: flex
         align-items: center
-        font-size: 1em
+        font-size: 16px
         font-weight: 500
         gap: 4px
-  .landing-img
-    img
-      border-radius: 50%
-      width: 368px
-      height: 368px
+        transition: .3s
+        &:hover
+          color: $blue
+          cursor: pointer   
+          transition: .1s
+  
     
 .sobre-mim         
   background-color: $light-blue
   padding: 64px 152px
   width: 100%
   margin-bottom: $space-section
-  h1
-    font-weight: bold
-    font-size: 32px
-    margin-bottom: 16px
-  p
-    margin-bottom: 1em
-    max-width: 751px
+  display: flex
+  justify-content: center
+  align-content: center
+  .sobre-mim-container
+    width: 1136px
+    h1
+      font-weight: bold
+      font-size: 32px
+      margin-bottom: 16px
+    p
+      margin-bottom: 1em
+      max-width: 751px
+    
   
 .skills
-  padding: 64px 152px
+  padding: 44px 152px
   width: 100%
 
 .skills-title, .hobbies-title
@@ -122,7 +156,364 @@ header
   padding: 64px 152px
   width: 100%
 
+.education      
+  background-color: $light-blue
+  padding: 82px 152px
+  width: 100%
+  margin-bottom: $space-section
+  .education-title
+    text-align: center
+    margin-bottom: $space-section
+  .education-container
+    display: flex
+    gap: 16px
+    justify-content: center
+    align-items: center
+    img
+      width: 368px
+      height: 286px
+      margin-bottom: 8px
+    h1
+      margin-bottom: 8px
       
+.projects
+  padding: 0px 152px
+  .projects-title
+    font-size: 32px
+    font-weight: bold
+    text-align: center
+    margin-bottom: $space-section
+  .projects-container
+    margin-bottom: 64px
+    display: flex
+    align-items: center
+    gap: 26px
+    justify-content: center
+  .projects-box
+    h1, p
+      margin-bottom: 8px
+    h1
+      font-size: 22
+      font-weight: bold
+    p
+      font-weight: 500
+    width: 348px
+    height: 112px
+    .btn-container
+      display: flex
+      gap: 16px
+      .repo-btn, .demo-btn
+        padding: 1em
+        border: 1px solid $blue
+        background-color: $background
+        color: $blue
+        font-family: 'raleway', sans-serif
+        font-weight: 400
+        transition: .2s
+        cursor: pointer
+        &:hover
+          transform: scale(1.1)
+
+      .demo-btn
+        background: $blue
+        color: #fff
+        border: none
+
+.projects-container-reverse
+  margin-bottom: 64px
+  display: flex
+  align-items: center
+  gap: 26px
+  justify-content: center
+  flex-direction: row-reverse
+
+.contact
+  display: flex
+  gap: 16px
+  justify-content: center
+  background-color: $light-blue
+  padding: 82px 152px
+  width: 100%
+  .contact-img
+    img
+      width: 464px
+      height: 593px
+  .contact-container
+    h1
+      font-size: 32px
+      font-weight: bold
+      margin-bottom: 8px
+    p
+      font-weight: 500
+      margin-bottom: 32px
+  form
+    display: flex
+    flex-direction: column
+    max-width: 656px
+    input
+      margin-bottom: 32px
+      height: 56px
+      border-radius: 4px
+      border: none
+      border-bottom: 1px solid $text-placeholder
+      padding-left: 12px 
+      &::placeholder
+        color: $text-placeholder
+        font-family: 'raleway', sans-serif
+      &:focus
+        outline: none
+        border-bottom: 3px solid $blue
+            
+    textarea
+      margin-bottom: 32px
+      resize: none
+      border: none
+      border-radius: 4px
+      border-bottom: 1px solid $text-placeholder
+      font-size: 1.2
+      font-family: 'raleway', sans-serif
+      padding-top:12px 
+      padding-left:12px 
+      &::placeholder
+        font-family: 'raleway', sans-serif
+        color: $text-placeholder
         
+      &:focus
+        outline: none
+        border-bottom: 3px solid $blue
+    .btn-form
+      padding: 1em
+      background-color: $background
+      color: $blue
+      font-family: 'raleway', sans-serif
+      font-weight: 400
+      background: $blue
+      color: #fff
+      width: 165px
+      height: 51px
+      border: none
+      transition: .3s
+      &:hover
+        cursor: pointer
+        background: #2165bd
+        transition: .3s
+
+footer
+  text-align: center
+  margin-top: 20px
+  a
+    color: $blue
+    &:hover
+      text-decoration: underline
+
+.active
+  display: none
+  
+
+@media (max-width: 1440px)
+
+  header 
+    margin: auto auto
+    margin-bottom: $space-section
+  
+
+  .landing
+    width: 70%
+    margin: auto
+    margin-bottom: $space-section
+    .landing-main
+      width: 60%
+      height: auto
+      h1
+        font-size: 32px
+        font-weight: 700
+        margin-bottom: 24px
+      p
+        font-size: 16px
+        font-weight: 400
+        margin-bottom: 24px
+    .landing-links
+      ul
+        display: flex
+        gap: 32px
+        li
+          display: flex
+          align-items: center
+          font-size: 16px
+          font-weight: 500
+          gap: 4px
+          transition: .3s
+          &:hover
+            color: $blue
+            cursor: pointer   
+            transition: .1s
+    
+  .sobre-mim-container
+    width: 20%
+    h1
+      font-weight: bold
+      font-size: 22px
+      margin-bottom: 16px
+    p
+      font-size: 14px
+      margin-bottom: 1em
+      max-width: 751px
+      
+
+@media (max-width: 1180px)
+
+
+  header 
+    margin: auto auto
+    margin-bottom: $space-section
+  .header-links
+    ul
+      li
+        display: none
+
+  .landing
+    display: flex
+    flex-direction: column-reverse
+    align-items: center
+    justify-content: center
+    margin: auto
+    margin-bottom: $space-section
+    padding: 0 60px
+    .landing-img
+      width: 150px
+      height: 150px
+    .landing-main
+      width: 100%
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: center
+      h1
+        font-size: 32px
+        font-weight: 700
+        margin-bottom: 24px
+        text-align: center
+      p
+        font-size: 16px
+        font-weight: 400
+        margin-bottom: 24px
+        text-align: center
+      .landing-links
+      ul
+        display: flex
+        align-items: center
+        justify-content: center
+        gap: 32px
+        li
+          display: flex
+          align-items: center
+          justify-content: center
+          font-size: 16px
+          font-weight: 500
+          gap: 4px
+          transition: .3s
+          &:hover
+            color: $blue
+            cursor: pointer   
+            transition: .1s
+  .square-container
+    flex-wrap: wrap
+    .blue-square
+      width: 224px
+      height: 118px
+
+  .education-container
+    flex-wrap: wrap
+    text-align: center
+
+  .contact-img
+    img
+      display: none
+
+  .projects-title
+    text-align: center
+    display: flex
+    justify-content: center
+    align-items: center
+    
+  .projects-container
+    flex-wrap: wrap
+    justify-content: center
+    align-items: center
+    text-align: center
+    
+  .btn-container
+    justify-content: center
+    align-items: center
+    margin-bottom: 1em 
+
+  .projects-container-reverse
+    flex-wrap: wrap
+    justify-content: center
+    align-items: center
+    text-align: center
+    
+  .projects-img
+    img
+      width: 350px
+    
+      
+@media (max-width: 780px)
+
+  header
+    flex-direction: column
+  .landing
+    display: flex
+    flex-direction: column-reverse
+    align-items: center
+    justify-content: center
+    margin: auto
+    margin-bottom: $space-section
+    padding: 0 60px
+    .landing-img
+      width: 150px
+      height: 150px
+    .landing-main
+      width: 100%
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: center
+      h1
+        font-size: 22px
+        font-weight: 700
+        margin-bottom: 24px
+        text-align: center
+      p
+        font-size: 14px
+        font-weight: 400
+        margin-bottom: 24px
+        text-align: center
+    .landing-links
+        ul
+          display: flex
+          align-items: center
+          justify-content: center
+          flex-wrap: wrap
+          gap: 32px
+          li
+            display: flex
+            align-items: center
+            justify-content: center
+            font-size: 16px
+            font-weight: 500
+            gap: 4px
+            transition: .3s
+            &:hover
+              color: $blue
+              cursor: pointer   
+              transition: .1s
+  .bold
+    display: none
+
+
+      
+      
+
           
       

@@ -8,46 +8,54 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="sass/style.css">
   <title>Meu Portfólio | Alura</title>
 </head>
+
 <body>
   <header>
     <div class="header-brand">
       <img src="img/stars.svg" alt="">
-      <h1>Gabriel Gonçalves</h1>
+      <a href="https://www.linkedin.com/in/dev-gabriel-leite/">
+        <h1>Gabriel Gonçalves</h1>
+      </a>
     </div>
     <div class="header-links">
       <ul>
-        
-        <a href="#">
+
+        <a href="#skills-section">
           <li>Skills</li>
-        </a> 
+        </a>
 
-        <a href="#">
+        <a href="#hobbies-section">
           <li>Hobbies</li>
-        </a> 
+        </a>
 
-        <a href="#">
+        <a href="#education-section">
           <li>Formação</li>
         </a>
 
-        <a href="#">
+        <a href="#projects-section">
           <li>Projetos</li>
         </a>
 
-        <a href="#">
-          <li>Contato@fulano.com</li>
-        </a>
       </ul>
+      <a href="#contact-section">
+        <li class="bold" >Contato@fulano.com</li>
+      </a>
+      <a href="#contact-section">
+        <li class="bold active" >Contato@fulano.com</li>
+      </a>
     </div>
   </header>
   <main>
-    <section class="landing">
+    <section data-aos="fade-down" data-aos-duration="1000" class="landing">
       <div class="landing-main">
-        <h1>Olá, meu nome é Fulana de Tal e construo páginas web</h1>
-        <p>Eu sou formada em lorem ipsum sit amet consectetur e atualmente estou participando no projeto Oracle ONE na Alura.</p>
+        <h1>Olá, meu nome é Fulano de tal e construo páginas web</h1>
+        <p>Eu sou formado em lorem ipsum sit amet consectetur e atualmente estou participando no projeto Oracle ONE na
+          Alura.</p>
         <div class="landing-links">
           <ul>
             <li>GitHub <img class="arrow-45" src="img/arrow-45.svg" alt=""></li>
@@ -57,17 +65,21 @@
           </ul>
         </div>
       </div>
-      <div class="landing-img">
-        <img src="https://picsum.photos/200" alt="">
+      <img  class="landing-img" src="img/avatar.png" alt="">
+    </section>
+    <section data-aos="fade-up" data-aos-duration="1000" class="sobre-mim">
+
+      <div class="sobre-mim-container">
+        <h1>Sobre mim</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti praesentium rem corrupti at voluptatibus
+          maiores quis. Architecto iste, aliquid et nulla officia adipisci fugit error, eius officiis rem asperiores
+          doloremque.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus temporibus quis consequatur, quam
+          perspiciatis dignissimos tenetur aspernatur impedit quas, aut est voluptas beatae quia porro qui aperiam
+          placeat totam odio.</p>
       </div>
     </section>
-    <section class="sobre-mim">
-      
-        <h1>Sobre mim</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti praesentium rem corrupti at voluptatibus maiores quis. Architecto iste, aliquid et nulla officia adipisci fugit error, eius officiis rem asperiores doloremque.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus temporibus quis consequatur, quam perspiciatis dignissimos tenetur aspernatur impedit quas, aut est voluptas beatae quia porro qui aperiam placeat totam odio.</p>
-    </section>
-    <section class="skills" >
+    <section data-aos="fade-left" id="skills-section" class="skills">
       <div class="skills-title">
         <h1>Skills</h1>
       </div>
@@ -98,92 +110,122 @@
         </div>
       </div>
     </section>
-    <section class="hobbies" >
+    <section data-aos="fade-right" id="hobbies-section" class="hobbies">
       <div class="hobbies-title">
         <h1>Hobbies</h1>
       </div>
       <div class="square-container">
         <div class="blue-square">
-          <img src="img/html.svg" alt="">
+          <img src="img/skate.svg" alt="">
           <p>Andar de Skate</p>
         </div>
         <div class="blue-square">
-          <img src="img/html.svg" alt="">
+          <img src="img/guitar.svg" alt="">
           <p>Tocar Baixo</p>
         </div>
         <div class="blue-square">
-          <img src="img/html.svg" alt="">
+          <img src="img/headphone.svg" alt="">
           <p>Ouvir música</p>
         </div>
         <div class="blue-square">
-          <img src="img/html.svg" alt="">
+          <img src="img/tv.svg" alt="">
           <p>Assistir séries</p>
         </div>
         <div class="blue-square">
-          <img src="img/html.svg" alt="">
+          <img src="img/cook.svg" alt="">
           <p>Cozinhar</p>
         </div>
         <div class="blue-square">
-          <img src="img/html.svg" alt="">
+          <img src="img/camera.svg" alt="">
           <p>Tirar fotos</p>
         </div>
       </div>
     </section>
-    <section class="education">
-      <div>
-        <h1>Formação acadêmica</h1>
+    <section id="education-section" class="education">
+      <div class="education-title">
+        <h1 data-aos="zoom-in" data-aos-duration="1000">Formação acadêmica</h1>
       </div>
-      <div>
-        <img src="img/UFPR.png" alt="">
-        <h1>Análise de dados</h1>
-        <p>2018 - UFRP</p>
-      </div>
-      <div>
-        <img src="img/alura.png" alt="">
-        <h1>Formação UX Design</h1>
-        <p>2019 - Alura</p>
-      </div>
-      <div>
-        <img src="img/UFRJ.png" alt="">
-        <h1>Pós-graduação design</h1>
-        <p>Em andamento - UFRJ</p>
+      <div data-aos="zoom-out" data-aos-duration="1200"class="education-container">
+        <div>
+          <img src="img/UFPR.png" alt="">
+          <h1>Análise de dados</h1>
+          <p>2018 - UFRP</p>
+        </div>
+        <div>
+          <img src="img/alura.png" alt="">
+          <h1>Formação UX Design</h1>
+          <p>2019 - Alura</p>
+        </div>
+        <div>
+          <img src="img/UFRJ.png" alt="">
+          <h1>Pós-graduação design</h1>
+          <p>Em andamento - UFRJ</p>
+        </div>
       </div>
     </section>
-    <section class="projects">
+    <section id="projects-section" data-aos="fade-right" class="projects">
+      <h1 class="projects-title">
+        Experiência profissional
+      </h1>
       <div class="projects-container">
-        <div class="projects-img">
-          <img src="https://picsum.photos/200" alt="">
+        <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-duration="1000"
+          class="projects-img">
+          <img src="https://picsum.photos/752/406" alt="">
         </div>
-        <h1 class="projects-title">
-          Lorem, ipsum.
-        </h1>
-        <p class="projects-descrip">Lorem, ipsum dolor.</p>
-        <div class="btn-container">
-          <button>Repositório</button>
-          <button>Ver demo</button>
+        <div class="projects-box">
+          <h1 class="projects-name">Decodificador de texto</h1>
+          <p class="projects-descrip">Challenge Alura
+            Codificador</p>
+          <div class="btn-container">
+            <button class="repo-btn">Repositório</button>
+            <button class="demo-btn">Ver demo</button>
+          </div>
         </div>
       </div>
     </section>
-    <section class="contact">
-      <div class="contact-img">
-        <img src="https://picsum.photos/200" alt="">
+    <section data-aos="fade-left" class="projects">
+      <div class="projects-container-reverse">
+        <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-duration="1000"
+          class="projects-img">
+          <img src="https://picsum.photos/752/406" alt="">
+        </div>
+        <div class="projects-box">
+          <h1 class="projects-name">Decodificador de texto</h1>
+          <p class="projects-descrip">Challenge Alura
+            Codificador</p>
+          <div class="btn-container">
+            <button class="repo-btn">Repositório</button>
+            <button class="demo-btn">Ver demo</button>
+          </div>
+        </div>
       </div>
-      <div>
+    </section>
+    <section data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="200" data-aos-duration="1000"
+      class="contact" id="contact-section">
+      <div class="contact-img">
+        <img src="img/contato.png" alt="">
+      </div>
+      <div class="contact-container">
         <h1>Contato</h1>
         <p>Quer entrar em contato comigo? <br>
           Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
+        <form>
+          <input type="text" placeholder="Nome">
+          <input type="email" name="" id="" placeholder="E-mail">
+          <input type="text" name="" id="" placeholder="Assunto">
+          <textarea placeholder="Mensagem" name="" id="" cols="30" rows="7"></textarea>
+          <button class="btn-form">Enviar mensagem</button>
+        </form>
       </div>
-      <form>
-        <input type="text" placeholder="Nome">
-        <input type="email" name="" id="" placeholder="E-mail">
-        <input type="text" name="" id="" placeholder="Assunto">
-        <textarea  placeholder="Mensagem" name="" id="" cols="30" rows="10"></textarea>
-        <button>Enviar mensagem</button>
-      </form>
     </section>
     <footer>
-      <p>Desenvolvido por Gabriel Gonçalves <br> 2023</p>
+      <p>Desenvolvido por <a href="https://github.com/GabrielFleckl">Gabriel Gonçalves</a> <br> 2023</p>
     </footer>
   </main>
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 </html>
