@@ -14,19 +14,16 @@
 </p>
 
 <p align="left">
-  <h2>Index</h2>
-  <a href="#alurinha-🅰%EF%B8%8F">Alurinha 🅰️</a> <br>
-  <a href="#fruta--fruto-">Fruta & Fruto 🍎</a> <br>
-  <a href="#ceep-%EF%B8%8F⃣">Ceep #️⃣</a> <br>
-  <a href="#apeperia-">Apeperia 🤖</a> <br>
-  <a href="#portfólio-%EF%B8%8F">Portfólio 🖥️</a> <br>
-  <a href="#petshop-form-">PetShop Form 🐶</a> <br>
+  <h2>Index Projetos 💻</h2>
+  <a href="#alurinha-🅰%EF%B8%8F">Alurinha 🅰️</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#fruta--fruto-">Fruta & Fruto 🍎</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#ceep-%EF%B8%8F⃣">Ceep #️⃣</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#apeperia-">Apeperia 🤖</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#portfólio-%EF%B8%8F">Portfólio 🖥️</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#petshop-form-">PetShop Form 🐶</a> 
 </p>
-<br>
 
-<h1 align="center">
- Projetos 💻
-</h1>
+---
 
 <br>
 <br>
