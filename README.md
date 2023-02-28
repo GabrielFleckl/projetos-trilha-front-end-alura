@@ -13,7 +13,7 @@
 <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
 </p>
 
-<p align="left">
+<p align="center">
   <h2>Index Projetos 💻</h2>
   <a href="#alurinha-🅰%EF%B8%8F">Alurinha 🅰️</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#fruta--fruto-">Fruta & Fruto 🍎</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
