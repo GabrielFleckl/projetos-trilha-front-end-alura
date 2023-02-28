@@ -1,18 +1,16 @@
 
+<img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
  <h1 align="center">
   Projetos Alura Front End 
 </h1>
 
 <p align="center">
-  <a href="#index-projetos-">Projetos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-contato">Contato</a>
 </p>
 <br>
 <p>
-<img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
 </p>
-
   <h2 align="center" >Index Projetos 💻</h2>
 <p align="center">
   <a href="#alurinha-🅰%EF%B8%8F">Alurinha 🅰️</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
