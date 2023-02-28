@@ -15,28 +15,134 @@
 
 <p align="left">
   <h2>Index</h2>
-  <a href="#">Projetos</a> <br>
+  <a href="#">Alurinha</a> <br>
   <a href="#">Licença</a> <br>
   <a href="#">Contato</a> <br>
 </p>
 <br>
 
 <h1 align="center">
-Alurinha 🅰️
+ Projetos 💻
 </h1>
 
-## 🎨 Layout
+<br>
+<br>
 
-Aqui você pode conferir o layout em suas respectivas versões. <br>
+# Alurinha 🅰️
 
-[👉 Link para visualizar a pagina inteira]()
+
+
+Aqui você pode conferir o layout. <br>
+
+[👉 Link para visualizar a pagina inteira](https://gabrielfleckl.github.io/projetos-trilha-front-end-alura/FlexBox/index.html)
 
 ### Versão Web 🖥️
 
 <br>
-  <img alt="layout-web" src="img/desktop.png" width="100%"> 
+  <img alt="layout-web" src="img-projetos/desktop-01.png" width="100%"> 
+
+<br>
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+![image](https://img.shields.io/badge/HTML-orangered?style=for-the-badge&logo=html5&logoColor=white)<br>
+![image](https://img.shields.io/badge/CSS-blue?&style=for-the-badge&logo=css3&logoColor=white)<br>
 
 ---
+
+<br>
+
+# Fruta & Fruto 🍎
+
+
+Aqui você pode conferir o layout. <br>
+
+[👉 Link para visualizar a pagina inteira](https://gabrielfleckl.github.io/projetos-trilha-front-end-alura/Projeto-fruta-fruto/index.html)
+
+### Versão Web 🖥️
+
+<br>
+  <img alt="layout-web" src="img-projetos/desktop-02.png" width="100%"> 
+  
+<br>
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+![image](https://img.shields.io/badge/HTML-orangered?style=for-the-badge&logo=html5&logoColor=white)<br>
+![image](https://img.shields.io/badge/CSS-blue?&style=for-the-badge&logo=css3&logoColor=white)<br>
+
+---
+
+<br>
+
+# Ceep #️⃣
+
+
+Aqui você pode conferir o layout. <br>
+
+[👉 Link para visualizar a pagina inteira](https://gabrielfleckl.github.io/projetos-trilha-front-end-alura/projeto-DOM/projeto_final/index.html)
+
+### Versão Web 🖥️
+
+<br>
+  <img alt="layout-web" src="img-projetos/desktop-03.png" width="100%"> 
+  
+<br>
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+![image](https://img.shields.io/badge/HTML-orangered?style=for-the-badge&logo=html5&logoColor=white)<br>
+![image](https://img.shields.io/badge/CSS-blue?&style=for-the-badge&logo=css3&logoColor=white)<br>
+![image](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+
+---
+
+<br>
+
+# Apeperia 🤖
+
+
+Aqui você pode conferir o layout. <br>
+
+[👉 Link para visualizar a pagina inteira](https://gabrielfleckl.github.io/projetos-trilha-front-end-alura/Projeto-Apeperia/index.html)
+
+### Versão Web 🖥️
+
+<br>
+  <img alt="layout-web" src="img-projetos/desktop-04.png" width="100%"> 
+  
+<br>
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+![image](https://img.shields.io/badge/HTML-orangered?style=for-the-badge&logo=html5&logoColor=white)<br>
+![image](https://img.shields.io/badge/CSS-blue?&style=for-the-badge&logo=css3&logoColor=white)<br>
+
+---
+
+<br>
+
+# Portfólio 🖥️
+
+
+Aqui você pode conferir o layout. <br>
+
+[👉 Link para visualizar a pagina inteira](https://gabrielfleckl.github.io/projetos-trilha-front-end-alura/Projeto-portfolio-alura/index.html)
+
+### Versão Web 🖥️
+
+<br>
+  <img alt="layout-web" src="img-projetos/desktop-05.png" width="100%"> 
+  
+<br>
 
 ## 🚀 Tecnologias
 
@@ -47,11 +153,33 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ![image](https://camo.githubusercontent.com/8849f369ac031cc842a4ab4248c7f7db6a4b593cad1f2d1c01d3aeb6f0f8dca7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f536173732d4343363639393f7374796c653d666f722d7468652d6261646765266c6f676f3d73617373266c6f676f436f6c6f723d7768697465)<br>
 ![image](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
+---
 
-## 💻 Projeto
+<br>
 
-Landing page para advocacia inspirado na serie de televisão Suits com funcionalidades de "smooth scroll" e "Slider", totalmente responsivo para tela de celulares e outros dispositivos.
+# PetShop Form 🐶
 
+
+Aqui você pode conferir o layout. <br>
+
+[👉 Link para visualizar a pagina inteira](https://gabrielfleckl.github.io/projetos-trilha-front-end-alura/validacao-doguito-main/cadastro.html)
+
+### Versão Web 🖥️
+
+<br>
+  <img alt="layout-web" src="img-projetos/desktop-06.png" width="100%"> 
+  
+<br>
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+![image](https://img.shields.io/badge/HTML-orangered?style=for-the-badge&logo=html5&logoColor=white)<br>
+![image](https://img.shields.io/badge/CSS-blue?&style=for-the-badge&logo=css3&logoColor=white)<br>
+![image](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+
+---
 ## 📝 Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
