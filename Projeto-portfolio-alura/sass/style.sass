@@ -72,10 +72,12 @@ header
   gap: 20px
   align-items: center
   justify-content: center
-  margin-bottom: $space-section
+  margin-top: $space-section + 60px
+  margin-bottom: $space-section 
   .landing-img
     width: 20%
     height: 20%
+    border-radius: 50%
   .landing-main
     width: 751px
     height: 246px
@@ -91,6 +93,8 @@ header
     ul
       display: flex
       gap: 32px
+      a
+        color: $text
       li
         display: flex
         align-items: center
@@ -103,7 +107,6 @@ header
           cursor: pointer   
           transition: .1s
   
-    
 .sobre-mim         
   background-color: $light-blue
   padding: 64px 152px
@@ -272,8 +275,7 @@ header
       border-bottom: 1px solid $text-placeholder
       font-size: 1.2
       font-family: 'raleway', sans-serif
-      padding-top:12px 
-      padding-left:12px 
+      padding:12px 
       &::placeholder
         font-family: 'raleway', sans-serif
         color: $text-placeholder
@@ -316,20 +318,20 @@ footer
     margin: auto auto
     margin-bottom: $space-section
   
-
   .landing
-    width: 70%
+    width: 90%
     margin: auto
+    margin-top: $space-section + 60px
     margin-bottom: $space-section
     .landing-main
       width: 60%
       height: auto
       h1
-        font-size: 32px
+        font-size: 52px
         font-weight: 700
         margin-bottom: 24px
       p
-        font-size: 16px
+        font-size: 22px
         font-weight: 400
         margin-bottom: 24px
     .landing-links
@@ -377,6 +379,7 @@ footer
     align-items: center
     justify-content: center
     margin: auto
+    margin-top: $space-section + 60px
     margin-bottom: $space-section
     padding: 0 60px
     .landing-img
@@ -456,7 +459,6 @@ footer
   .projects-img
     img
       width: 350px
-    
       
 @media (max-width: 780px)
 
@@ -468,6 +470,7 @@ footer
     align-items: center
     justify-content: center
     margin: auto
+    margin-top: $space-section + 60px
     margin-bottom: $space-section
     padding: 0 60px
     .landing-img
@@ -508,6 +511,10 @@ footer
               color: $blue
               cursor: pointer   
               transition: .1s
+  .sobre-mim      
+    padding: 10px     
+    .sobre-mim-container
+      padding: 50px
   .bold
     display: none
 

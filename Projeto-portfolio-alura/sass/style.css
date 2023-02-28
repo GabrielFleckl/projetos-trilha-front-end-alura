@@ -78,11 +78,13 @@ header .header-links ul li:hover {
   gap: 20px;
   align-items: center;
   justify-content: center;
+  margin-top: 92px;
   margin-bottom: 32px;
 }
 .landing .landing-img {
   width: 20%;
   height: 20%;
+  border-radius: 50%;
 }
 .landing .landing-main {
   width: 751px;
@@ -101,6 +103,9 @@ header .header-links ul li:hover {
 .landing .landing-links ul {
   display: flex;
   gap: 32px;
+}
+.landing .landing-links ul a {
+  color: #464646;
 }
 .landing .landing-links ul li {
   display: flex;
@@ -317,8 +322,7 @@ header .header-links ul li:hover {
   border-bottom: 1px solid #A2A2A2;
   font-size: 1.2;
   font-family: "raleway", sans-serif;
-  padding-top: 12px;
-  padding-left: 12px;
+  padding: 12px;
 }
 .contact form textarea::-moz-placeholder {
   font-family: "raleway", sans-serif;
@@ -372,8 +376,9 @@ footer a:hover {
     margin-bottom: 32px;
   }
   .landing {
-    width: 70%;
+    width: 90%;
     margin: auto;
+    margin-top: 92px;
     margin-bottom: 32px;
   }
   .landing .landing-main {
@@ -381,12 +386,12 @@ footer a:hover {
     height: auto;
   }
   .landing .landing-main h1 {
-    font-size: 32px;
+    font-size: 52px;
     font-weight: 700;
     margin-bottom: 24px;
   }
   .landing .landing-main p {
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 400;
     margin-bottom: 24px;
   }
@@ -435,6 +440,7 @@ footer a:hover {
     align-items: center;
     justify-content: center;
     margin: auto;
+    margin-top: 92px;
     margin-bottom: 32px;
     padding: 0 60px;
   }
@@ -532,6 +538,7 @@ footer a:hover {
     align-items: center;
     justify-content: center;
     margin: auto;
+    margin-top: 92px;
     margin-bottom: 32px;
     padding: 0 60px;
   }
@@ -578,6 +585,12 @@ footer a:hover {
     color: #2A7AE4;
     cursor: pointer;
     transition: 0.1s;
+  }
+  .sobre-mim {
+    padding: 10px;
+  }
+  .sobre-mim .sobre-mim-container {
+    padding: 50px;
   }
   .bold {
     display: none;

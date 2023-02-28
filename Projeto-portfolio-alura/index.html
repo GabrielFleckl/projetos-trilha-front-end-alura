@@ -58,10 +58,18 @@
           Alura.</p>
         <div class="landing-links">
           <ul>
-            <li>GitHub <img class="arrow-45" src="img/arrow-45.svg" alt=""></li>
-            <li>Linkedin <img class="arrow-45" src="img/arrow-45.svg" alt=""></li>
-            <li>Instagram <img class="arrow-45" src="img/arrow-45.svg" alt=""></li>
-            <li>Currículo <img class="arrow-45" src="img/arrow-45.svg" alt=""></li>
+            <a href="https://github.com/GabrielFleckl">
+              <li>GitHub <img class="arrow-45" src="img/arrow-45.svg" alt=""></li>
+            </a>
+            <a href="https://www.linkedin.com/in/dev-gabriel-leite/">
+              <li>Linkedin <img class="arrow-45" src="img/arrow-45.svg" alt=""></li>
+            </a>
+            <a href="#">
+              <li>Instagram <img class="arrow-45" src="img/arrow-45.svg" alt=""></li>
+            </a>
+            <a href="https://drive.google.com/file/d/1ReqYbTRDldMzheo8yI3qCc1HMhfPswGV/view">
+              <li>Currículo <img class="arrow-45" src="img/arrow-45.svg" alt=""></li>
+            </a>
           </ul>
         </div>
       </div>
@@ -74,6 +82,9 @@
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti praesentium rem corrupti at voluptatibus
           maiores quis. Architecto iste, aliquid et nulla officia adipisci fugit error, eius officiis rem asperiores
           doloremque.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus temporibus quis consequatur, quam
+          perspiciatis dignissimos tenetur aspernatur impedit quas, aut est voluptas beatae quia porro qui aperiam
+          placeat totam odio.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus temporibus quis consequatur, quam
           perspiciatis dignissimos tenetur aspernatur impedit quas, aut est voluptas beatae quia porro qui aperiam
           placeat totam odio.</p>
@@ -210,10 +221,10 @@
         <p>Quer entrar em contato comigo? <br>
           Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
         <form>
-          <input type="text" placeholder="Nome">
-          <input type="email" name="" id="" placeholder="E-mail">
-          <input type="text" name="" id="" placeholder="Assunto">
-          <textarea placeholder="Mensagem" name="" id="" cols="30" rows="7"></textarea>
+          <input type="text" placeholder="Nome" required>
+          <input type="email" name="email" id="email" placeholder="E-mail" onclick="validarForm(event)" required>
+          <input type="text" name="" id="" placeholder="Assunto" required>
+          <textarea placeholder="Mensagem" name="" id="" cols="30" rows="7" required></textarea>
           <button class="btn-form">Enviar mensagem</button>
         </form>
       </div>
@@ -224,6 +235,7 @@
   </main>
 </body>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/index.js"></script>
 <script>
   AOS.init();
 </script>
