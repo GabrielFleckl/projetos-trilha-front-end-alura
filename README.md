@@ -16,11 +16,11 @@
 <p align="left">
   <h2>Index</h2>
   <a href="#alurinha-🅰%EF%B8%8F">Alurinha 🅰️</a> <br>
-  <a href="#">Fruta & Fruto 🍎</a> <br>
-  <a href="#">Ceep #️⃣</a> <br>
-  <a href="#">Apeperia 🤖</a> <br>
-  <a href="#">Portfólio 🖥️</a> <br>
-  <a href="#">PetShop Form 🐶</a> <br>
+  <a href="#fruta--fruto-">Fruta & Fruto 🍎</a> <br>
+  <a href="#ceep-%EF%B8%8F⃣">Ceep #️⃣</a> <br>
+  <a href="#apeperia-">Apeperia 🤖</a> <br>
+  <a href="#portfólio-%EF%B8%8F">Portfólio 🖥️</a> <br>
+  <a href="#petshop-form-">PetShop Form 🐶</a> <br>
 </p>
 <br>
 
