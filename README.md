@@ -15,9 +15,12 @@
 
 <p align="left">
   <h2>Index</h2>
-  <a href="#">Alurinha</a> <br>
-  <a href="#">Licença</a> <br>
-  <a href="#">Contato</a> <br>
+  <a href="#alurinha-🅰%EF%B8%8F">Alurinha 🅰️</a> <br>
+  <a href="#">Fruta & Fruto 🍎</a> <br>
+  <a href="#">Ceep #️⃣</a> <br>
+  <a href="#">Apeperia 🤖</a> <br>
+  <a href="#">Portfólio 🖥️</a> <br>
+  <a href="#">PetShop Form 🐶</a> <br>
 </p>
 <br>
 
